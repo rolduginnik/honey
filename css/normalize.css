@@ -13,7 +13,10 @@ header {
 	padding: 2% 5%;
 }
 .menu-section {
-	margin: auto;
+	margin: auto 0 0 0;
+}
+.logo {
+	margin-left: 0em;
 }
 .text {
 	font-size: 3em;
@@ -31,6 +34,9 @@ header {
 .menu-section {
 	margin: auto;
 }
+.logo {
+	margin-left: 0em;
+}		
 .text {
 	font-size: 3em;
 	padding: 105px 5% 0 5%;
