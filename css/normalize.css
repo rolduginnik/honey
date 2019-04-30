@@ -4,20 +4,23 @@ body {
 	margin: 0;
 }
 
-@media (max-width: 933px) {
+@media (max-width: 956px) {
 body {
 	width: 100%;
 	margin: 0;
 }
 header {
 	padding: 2% 5%;
+}
+.menu-section {
+	margin: auto;
 }
 .text {
 	font-size: 3em;
-	padding: 13% 2em 0 2em;
+	padding: 150px 5% 0 5%;
 }
-}
-@media (max-width: 700px) {
+
+@media (max-width: 722px) {
 body {
 	width: 100%;
 	margin: 0;
@@ -25,8 +28,11 @@ body {
 header {
 	padding: 2% 5%;
 }
+.menu-section {
+	margin: auto;
+}
 .text {
-	font-size: 2em;
-	padding: 6em 2em 0 2em;
+	font-size: 3em;
+	padding: 105px 5% 0 5%;
 }
 }
