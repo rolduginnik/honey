@@ -1,11 +1,9 @@
 		/* header */
-.u {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+#u4 {
+	display: grid;
 }
 .masthead {
-/*	display: flex;*/
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	background: url(../image/header-background.jpg);
@@ -64,15 +62,14 @@
 	overflow: hidden;
 }
 .text {
-	display: flex;
+	transform: translateY(100px);
+	width: 100%;
 	position: absolute;
-	flex-wrap: nowrap;
 	z-index: 1;
 	text-align: center;
-/*	width: 100%;*/
 	color: #fff;
 	padding: 0;
-	font-size: 4vw;
+	font-size: 4em;
 	text-transform: uppercase;
 	text-shadow: 0 .5px 5px rgb(74, 46, 46);
 }
