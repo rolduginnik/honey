@@ -4,41 +4,30 @@ body {
 	margin: 0;
 }
 
+
 @media (max-width: 956px) {
-body {
-	width: 100%;
-	margin: 0;
+	.text {
+	font-size: 4em;
+	transform: translateY(70px);
+}	
 }
-header {
-	padding: 2% 5%;
-}
-.menu-section {
-	margin: auto 0 0 0;
-}
-.logo {
-	margin-left: 0em;
-}
-.text {
-	font-size: 3em;
-	padding: 150px 5% 0 5%;
+
+@media (max-width: 908px) {
+	.menu {
+		flex: auto;
+		justify-content: center;
+	}
+	.logo {
+		transform: translateX(-1em);
+	}
+	.text {
+		font-size: 3em;
+		transform: translateY(220px);
 }
 
 @media (max-width: 722px) {
-body {
-	width: 100%;
-	margin: 0;
-}
-header {
-	padding: 2% 5%;
-}
-.menu-section {
-	margin: auto;
-}
-.logo {
-	margin-left: 0em;
-}		
-.text {
-	font-size: 3em;
-	padding: 105px 5% 0 5%;
-}
+	.text {
+		font-size: 3em;
+		transform: translateY(170px);
+	}
 }
