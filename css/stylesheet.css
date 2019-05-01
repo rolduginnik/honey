@@ -38,7 +38,7 @@ header section.menu {
 .nav ul li:not(.it):before {
  	content: "";
   	position: absolute;
-  	width: 100%;
+  	width: 93%;
   	height: 2px;
 	text-decoration-line: line-through;
 	bottom: 0;
@@ -56,12 +56,15 @@ header section.menu {
 	transform: scaleX(1);
 }
 .nav ul li.store {
-	border: 1px solid #fff;
+	margin: auto;
+	list-style: none;
+}
+.store-a {
+	border: 5px solid rgba(255, 233, 210, 0.97);
 	padding: 10px 20px;
 	border-radius: 100px;
 	text-transform: uppercase;
-	margin: 0 50px;
-	list-style: none;
+	margin: auto 3em;
 }
 .nav ul li.it {
 	border-bottom: 2px solid #fff;
