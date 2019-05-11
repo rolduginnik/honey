@@ -1,0 +1,40 @@
+	/* nav */
+
+.menu-section {
+	z-index: 2;
+	padding: 0;
+	margin: 0;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 2px 0;
+	background: hsl(35, 35%, 18%);
+}
+
+.menu li a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: .6em 1em;
+}
+
+.menu li a:hover {
+	background: hsl(37, 18%, 27%);
+}
+
+
+@media screen and (min-width: 45em) { 
+    .single-nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    
+    .single-nav li {
+        flex: 1 0 auto;
+        text-align: center;
+    }
+    
+}

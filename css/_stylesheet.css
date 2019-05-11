@@ -1,0 +1,138 @@
+		/* header */
+/*
+header.masthead {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: url(../image/header-background.jpg);
+	background-size: cover;
+	position: fixed;
+	z-index: 2;
+	width: 100vw;
+}
+header img.logo {
+	flex: 0 0 auto;
+	margin-left: 5em;
+	width: 211px;
+}
+*/
+/*
+header section.menu {
+	display: flex;
+	margin: auto 0 auto auto;
+}
+*/
+/*
+.nav ul li.menu-link a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+*/
+/*
+.nav ul li.menu-link a:hover {
+	color: #000000;
+}
+*/
+/*
+.nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+	position: relative;
+	padding: auto;
+}
+*/
+/*
+.nav ul li:not(.store) {
+	flex: 0 0 auto;
+	margin: .6em;
+	position: relative;
+	list-style: none;
+	text-shadow: 0px 1px 2px #913d3d;
+}
+*/
+/*
+.nav ul li:not(.it):before {
+ 	content: "";
+  	position: absolute;
+  	width: 100%;
+  	height: 3px;
+	text-decoration-line: line-through;
+	bottom: 0;
+  	left: 0;
+  	background-color: #522a07;
+  	visibility: visible;
+  	-webkit-transform: scaleX(0);
+  	transform: scaleX(0);
+  	-webkit-transition: all 0.1s ease-in-out .2s;
+  	transition: all 0.1s ease-in-out .1s;
+} 
+*/
+/*
+.nav ul li:not(.it):active:before {
+	content: "";
+  	position: absolute;
+  	background-color: #fff;
+  	visibility: visible;
+  	-webkit-transform: scaleX(0);
+  	transform: scaleX(0);
+  	-webkit-transition: all 0s ease-in-out 0s;
+  	transition: all 0s ease-in-out 0s;
+}
+*/
+/*
+.nav ul li:not(.store):hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+*/
+/*
+.nav ul li.store {
+	margin: auto;
+	list-style: none;
+}
+*/
+/*
+.store-a:hover {
+	color: #ff1a1a;
+	box-shadow: 1px 2px 10px #676767;
+}
+*/
+/*
+.store-a:active {
+	color: #ff1a1a;
+	box-shadow: 1px 2px 10px rgba(245, 245, 245, 0);
+}
+*/
+/*
+.store-a {
+	border: 5px solid rgba(255, 233, 210, 0.97);
+	padding: 10px 20px;
+	border-radius: 100px;
+	text-shadow: 0px 1px 1px #575757;
+	text-transform: uppercase;
+	margin: auto 3em;
+}
+*/
+/*
+.nav ul li.it {
+	border-bottom: 2px solid #fff;
+	padding-bottom: 4px;
+}
+*/
+/*
+.text {
+	transform: translateY(120px);
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	color: #fff;
+	padding: 0 5%;
+	font-size: 4em;
+	text-transform: uppercase;
+	text-shadow: 0 .5px 5px rgb(74, 46, 46);
+}
+*/
+		/* header-end */

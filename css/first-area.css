@@ -1,0 +1,35 @@
+	/* #first-area */
+
+div#first-area {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+}
+.bg-video {
+	display: block;
+	height: 570px;
+	width: 72em;
+	background-size: cover;
+	overflow: hidden;
+	z-index: 0;
+	position: relative;
+}
+#bg-vid {
+	
+/*	float: inherit;*/
+}
+
+div.text {
+	display: block;
+	z-index: 1;
+	color: #fff;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-shadow: 0 .5px 5px rgb(74, 46, 46);
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	text-align: center;
+
+}

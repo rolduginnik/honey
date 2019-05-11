@@ -1,0 +1,24 @@
+	/* #footer-area */
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	background-color: #3b3737;
+	align-items: stretch;
+}
+footer div.f-logo {
+	flex: auto;
+	flex-wrap: nowrap;
+}
+.f-button-top {
+	flex: 1 0 auto;
+	width: 200px;
+	height: 100px;
+}
+.footer-info {
+	flex: 1 0 auto;
+	flex-wrap: nowrap;
+	width: 200px;
+	height: 100px;
+}

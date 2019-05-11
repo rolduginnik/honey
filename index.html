@@ -5,65 +5,85 @@
 	<title>Мёдов Край</title>
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="css/stylesheet.css">
-	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="style-menus.css" type="text/css" media="all">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-<section>
-	<header class="masthead">
-		<img class="logo" src="image/honey-DR-logo-white.png" alt="logo"/>
-		<section class="menu">
-			<nav class="nav">
-				<ul>
-					<li class="menu-link it"><a href="index.html">Домой</a></li>
-					<li class="menu-link"><a href="#">О нас</a></li>
-					<li class="menu-link"><a href="#">Технология</a></li>
-					<li class="menu-link"><a href="#">Интересное</a></li>
-					<li class="menu-link store"><a class="store-a" href="#">Магазин</a></li>
-				</ul>
-			</nav>
-			
-		</section><!-- menu-section -->
-	</header><!-- .masthead -->
-	<div class="text"><h1>лучшая работа природы</h1></div>
-</section>
 
-<main class="main-area">
-	<div id="first-area"><!-- #first-area -->
-		<section class="bg-video">
-			<video autoplay loop muted><source src="image/honey_intro_static_3.mp4" type="video/mp4">
-			</video>
-		</section>
-	</div><!-- #first-area -->
+    <header class="masthead clear">
+        <div class="centered">
+            <div>
+               <img class="site-logo" src="image/honey-DR-logo-white.png" alt="logo"/>
+            </div><!-- .site-title -->
+        </div><!-- .centered -->
+    </header><!-- .masthead -->
 
-	<div id="second-area"><!-- #second-area -->
-		<img id="sa-img" src="image/about-honey.png" alt="honey"/>
+	<main class="main-area">
 		
-		<div class="table">
-			<div class="table-header">
-				<div id="sa-honey-icon"><img src="image/honey-icon.png" alt="honey-icon" width="70"/> </div>
-				<span class="table-subtitle">Единственное, что можно сделать из меда</span>
-				<h2>ЭТО ВСЁ</h2>
-				<p>Мед - это рецепт из одного ингредиента, который делают пчелы, цветы и сама природа.</p>
-			</div>
+		<div class="centered">
+		
+			<section class="menu-section">
+			
+				<nav id="singlenav" class="single-nav menu" role="navigation">
+					<ul>
+						<li class="menu-link it"><a href="index.html">Домой</a></li>
+						<li class="menu-link"><a href="#">О нас</a></li>
+						<li class="menu-link"><a href="#">Технология</a></li>
+						<li class="menu-link"><a href="#">Интересное</a></li>
+						<li class="menu-link store"><a class="store-a" href="#">Магазин</a></li>
+					</ul>
+				</nav>
+				
+			</section><!-- menu-section -->
+			
+				<div id="first-area"><!-- #first-area -->
+
+					<section class="bg-video">
+						<video id="bg-vid" autoplay loop muted><source src="image/honey_intro_static_3.mp4" type="video/mp4">
+						</video>
+					</section>
+<div class="text"><h1>лучшая работа природы</h1></div>
+
+
+				</div><!-- #first-area -->
+			
+			<div id="second-area"><!-- #second-area -->
+				<div><img id="sa-img" src="image/about-honey.png" alt="honey"/></div>
+				<div class="table">
+					<div class="table-header">
+						<div id="sa-honey-icon"><img src="image/honey-icon.png" alt="honey-icon" width="70"/> </div>
+						<span class="table-subtitle">Единственное, что можно сделать из меда</span>
+						<h2>ЭТО ВСЁ</h2>
+						<p>Мед - это рецепт из одного ингредиента, который делают пчелы, цветы и сама природа.</p>
+					</div>
+				</div>
+			</div><!-- #second-area -->
+			
+			<div id="third-area"><!-- #third-area -->
+				<img id="ta-honey-bg" src="image/homepage-bees-bg.jpg" alt="honey" width="100"/>
+			</div><!-- #third-area -->
 		</div>
 		
-	</div><!-- #second-area -->
-	
-	<div id="third-area"><!-- #third-area -->
-	<img id="ta-honey-bg" src="image/homepage-bees-bg.jpg" alt="honey" width="100"/>
-	</div><!-- #third-area -->
-</main>
+	</main>
 	
 <footer>
-<!--
-	<a class="a-button-footer button-footer" href="#top" role="button">top</a>
-	<a class="a-button-footer button-footer" href="views/about.html" role="button">about</a>
--->
-	<div><img src="image/homepage-DR-footer-logo.png" alt="logo"></div>
-
-	<div id="fb"><span class="p-footer">&copy; 2019 Nikolai Roldugin <span id="year"></span> | <a class="a-footer" href="https://coned.georgebrown.ca/courses-and-certificates/fundamentals-of-web-design-with-css/" title="COMP 9626" target="_blank">Fundamentals of Web Design with CSS</a> | GBC 101133384</span></div>
+	<div class="f-logo"><img src="image/homepage-DR-footer-logo.png" alt="logo"></div>
+	
+	<div class="f-button-top">
+	<a href="#top" role="button">top</a>
+	</div>
+	
+	<div class="footer-info">
+		<ul>
+			<li>+7 (906) 654-54-54</li><li>+7 (913) 654-54-54</li>
+			<li><a href="https://www.instagram.com/" title="instagram" target="_blank">Instagram</a></li>
+			<li>ИП 222222</li>
+		</ul>
+	</div>
+	
 </footer>
+
 </body>
 </html>

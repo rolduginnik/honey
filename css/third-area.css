@@ -1,0 +1,12 @@
+	/* #third-area */
+
+#third-area {
+	display: flex;
+	flex-wrap: wrap;
+}
+#third-area #ta-honey-bg {
+	flex: 1;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
+}
