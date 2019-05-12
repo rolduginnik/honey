@@ -25,14 +25,15 @@
 }
 
 
-@media screen and (min-width: 45em) { 
-    .single-nav ul {
+@media screen and (min-width: 62em) { 
+    .menu ul {
         display: flex;
         flex-wrap: nowrap;
+		padding: 0 7.3%;
         justify-content: space-between;
     }
     
-    .single-nav li {
+    .menu li {
         flex: 1 0 auto;
         text-align: center;
     }
