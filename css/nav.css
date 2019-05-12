@@ -8,7 +8,7 @@
 
 .menu ul {
 	list-style-type: none;
-	font-size: 3em;
+	font-size: 2em;
 	padding: 0;
 	margin: 2px 0;
 	background: hsl(35, 35%, 18%);
@@ -26,7 +26,7 @@
 }
 
 
-@media screen and (min-width: 985px) { 
+@media screen and (min-width: 62em) { 
     .menu ul {
         display: flex;
         flex-wrap: nowrap;
@@ -39,21 +39,4 @@
         flex: 1 0 auto;
         text-align: center;
     }
-    
 }
-/*
-@media screen and (min-width: 800px) { 
-    .menu ul {
-       display: flex;
-        flex-wrap: nowrap;
-		padding: 0 7.3%;
-		font-size: 1em;
-        justify-content: space-between;
-    }
-    
-    .menu li {
-        flex: 1 0 auto;
-        text-align: center;
-    }
-    
-}*/
