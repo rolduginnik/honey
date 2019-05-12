@@ -26,7 +26,7 @@
 }
 
 
-@media screen and (min-width: 62em) { 
+@media screen and (min-width: 985px) { 
     .menu ul {
         display: flex;
         flex-wrap: nowrap;
@@ -41,3 +41,19 @@
     }
     
 }
+/*
+@media screen and (min-width: 800px) { 
+    .menu ul {
+       display: flex;
+        flex-wrap: nowrap;
+		padding: 0 7.3%;
+		font-size: 1em;
+        justify-content: space-between;
+    }
+    
+    .menu li {
+        flex: 1 0 auto;
+        text-align: center;
+    }
+    
+}*/
