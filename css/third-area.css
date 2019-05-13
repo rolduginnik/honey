@@ -2,9 +2,29 @@
 
 #third-area {
 	display: flex;
+	justify-content: space-around;
+	align-items:center;
 }
-#third-area #ta-honey-bg {
+#ta-honey-bg {
 	flex: 1;
-	height: 100%;
-	overflow: hidden;
+	opacity: 0.98;
+	background-color:#000;
+}
+div.text-third {
+	color: #fff;
+	font-size: 3em;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-shadow: 0 .5px 5px rgb(74, 46, 46);
+	position: absolute;
+	width: 600px;
+	text-align: center;
+}
+
+@media screen and (min-width: 62em) {
+	div.text-third {
+		font-size: 4em;
+		width: 900px;
+
+	}
 }
