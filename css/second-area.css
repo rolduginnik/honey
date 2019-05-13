@@ -14,7 +14,7 @@
 .table {
 	text-align: center;
 }
-.table span p {
+.table div p {
 	text-transform: uppercase;
 	font-size: 1.3rem;
 	font-weight: 100;
