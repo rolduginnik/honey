@@ -12,12 +12,12 @@
 }
 div.text-third {
 	color: #fff;
-	font-size: 3em;
+	font-size: 4em;
 	font-weight: 600;
 	text-transform: uppercase;
 	text-shadow: 0 .5px 5px rgb(74, 46, 46);
 	position: absolute;
-	width: 600px;
+	width: 800px;
 	text-align: center;
 }
 
@@ -25,6 +25,5 @@ div.text-third {
 	div.text-third {
 		font-size: 4em;
 		width: 900px;
-
 	}
 }

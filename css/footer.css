@@ -24,14 +24,10 @@ footer div.f-logo {
 	width: 200px;
 	height: 100px;
 }
-	
-
-
-
 
 #go-top {
   position: fixed; 
-  bottom: 35px; 
+  bottom: 55px; 
   right: 40px;
   text-align: center;
   cursor:pointer; 
