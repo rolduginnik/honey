@@ -34,7 +34,7 @@
 	font-size: 6rem;
 	margin: 0;
 }
-.table span p::before {
+.table div p::before {
 	content: '';
 	width: 20px;
 	height: 5px;
@@ -44,7 +44,7 @@
 	margin-right: 5px;
 	margin-top: -3px;
 }
-.table span p::after {
+.table div p::after {
 	content: '';
 	width: 20px;
 	height: 5px;
