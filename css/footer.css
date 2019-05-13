@@ -3,28 +3,35 @@
 footer {
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: nowrap;
+	align-items: center;
+	flex-wrap: wrap;
 	background-color: #3b3737;
-	align-items: stretch;
-	padding: 15px 0;
+	padding: 15px 120px 15px 0;
 }
 footer div.f-logo {
-	flex: 0 0 200px;
-	flex-wrap: nowrap;
+	flex: 0 200px;
 	margin: 15px 4em;
 }
-.f-button-top {
-	flex: 1 0 auto;
-	width: 200px;
-	height: 100px;
-}
 .footer-info {
-	flex: 1 0 auto;
-	flex-wrap: nowrap;
-	width: 200px;
-	height: 100px;
+	flex: 1 20px 30px;
+	margin-right: 50px;
+	color: #fff;
+	transform: translateX(50px);
+}
+.footer-info a {
+	color: #fff;
+}
+.footer-info a:hover {
+	color: rgb(255, 157, 0);
 }
 
+@media screen and (min-width: 62em) {
+	footer {
+		padding: 15px 150px 15px 0;
+	}
+}
+
+/* button UP*/
 #go-top {
   position: fixed; 
   bottom: 55px; 
@@ -38,7 +45,6 @@ footer div.f-logo {
   line-height: 3em;
   border-radius: 50px;
 }
-
 #go-top:hover {
   background: rgb(255, 157, 0);
   color: #fff;
