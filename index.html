@@ -4,8 +4,11 @@
 	<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
 	<title>Мёдов Край</title>
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style-menus.css" type="text/css" media="all">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script><!-- button UP -->
+
 </head>
 
 <body>
@@ -59,7 +62,7 @@
 			</div><!-- #second-area -->
 			
 			<div id="third-area"><!-- #third-area -->
-				<img id="ta-honey-bg" src="image/unsplash.com/annie-spratt-418645-unsplash.jpg" alt="honey" width="100"/>
+				<img id="ta-honey-bg" src="image/annie-spratt-418645-unsplash.jpg" alt="honey" width="100"/>
 			</div><!-- #third-area -->
 			
 		</div>
@@ -69,19 +72,42 @@
 <footer>
 	<div class="f-logo"><img src="image/homepage-DR-footer-logo.png" alt="logo"></div>
 	
-	<div class="f-button-top">
-	<a href="#top" role="button">top</a>
-	</div>
 	
 	<div class="footer-info">
 		<ul>
-			<li>+7 (906) 654-54-54</li><li>+7 (913) 654-54-54</li>
+			<li>+7 (906) 654-54-54</li>
+			<li>+7 (913) 654-54-54</li>
 			<li><a href="https://www.instagram.com/" title="instagram" target="_blank">Instagram</a></li>
 			<li>ИП 222222</li>
 		</ul>
 	</div>
 	
 </footer>
+
+<script><!-- button UP -->
+$(document).ready(function(){
+  $('body').append('<a href="#" id="go-top" title="Вверх"><i class="fas fa-angle-double-up"></i></a>');
+});
+
+$(function() {
+ $.fn.scrollToTop = function() {
+  $(this).hide().removeAttr("href");
+  if ($(window).scrollTop() >= "250") $(this).fadeIn("slow")
+  var scrollDiv = $(this);
+  $(window).scroll(function() {
+   if ($(window).scrollTop() <= "250") $(scrollDiv).fadeOut("slow")
+   else $(scrollDiv).fadeIn("slow")
+  });
+  $(this).click(function() {
+   $("html, body").animate({scrollTop: 0}, "slow")
+  })
+ }
+});
+
+$(function() {
+ $("#go-top").scrollToTop();
+});
+</script>
 
 </body>
 </html>
