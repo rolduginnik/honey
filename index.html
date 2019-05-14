@@ -13,12 +13,14 @@
 
 <body>
 
-    <header class="masthead clear">
-        <div class="centered">
-            <div>
-               <img class="site-logo" src="image/honey-DR-logo-white-MY.png" alt="logo"/>
-            </div><!-- .site-title -->
-        </div><!-- .centered -->
+    <header class="clear">
+       <div class="masthead">
+			<div class="centered">
+				<div>
+				   <img class="site-logo" src="image/honey-DR-logo-white-MY.png" alt="logo"/>
+				</div><!-- .site-title -->
+			</div><!-- .centered -->
+		</div>
     </header><!-- .masthead -->
 
 	<main class="main-area">
@@ -41,17 +43,14 @@
 		
 			<div id="first-area"><!-- #first-area -->
 
-				<section class="bg-video">
-					<video id="bg-vid" autoplay loop muted><source src="image/honey_intro_static_3.mp4" type="video/mp4">
-					</video>
-				</section>
-					
+				<video id="bg-vid" autoplay loop muted width: 1296px><source src="image/honey_intro_static_3.mp4" type="video/mp4"></video>
 				<div id="text-m"><h1>лучшая работа природы</h1></div>
 				
 			</div><!-- #first-area -->
 			
 			<div id="second-area"><!-- #second-area -->
 				<div><img id="sa-img" src="image/danika-perkinson-1055412-unsplash.png" alt="honey"/></div>
+				
 				<div class="table">
 					
 					<div class="table-subtitle"><p>Единственное, что можно сделать из меда</p></div>
@@ -75,14 +74,19 @@
 	
 	<div class="footer-info">
 		<ul>
-			<li>+7 (906) 654-54-54</li>
-			<li>+7 (913) 654-54-54</li>
-			<li><a href="https://www.instagram.com/" title="instagram" target="_blank">Instagram</a></li>
+			<li class="phone"><i class="fas fa-mobile-alt"></i> &nbsp;&nbsp;+7 (906) 654-54-54</li>
+			<li class="phone"><i class="fas fa-mobile-alt"></i> &nbsp;&nbsp;+7 (913) 654-54-54</li>
+			<li class="insta"><i class="fab fa-instagram"></i> &nbsp;&nbsp;<a href="https://www.instagram.com/" title="instagram" target="_blank">Instagram</a></li>
 			<li>ИП 222222</li>
+			<li class="copyright">Мёдов Край &copy; <span id="year"></span></li>
 		</ul>
 	</div>
 	
 </footer>
+
+<script><!-- New Year -->
+	document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
 
 <script><!-- button UP -->
 $(document).ready(function(){

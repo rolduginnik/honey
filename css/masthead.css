@@ -1,10 +1,15 @@
 ﻿	/*Header styles*/
 
+.clear {
+	background-color: #fff;
+	z-index: 2;
+	transform: translateY(2px);
+}
 .masthead {
     background-image: url(../image/unsplash.com/krystal-ng-1185035-unsplash.jpg);
 	background-size: cover;
+	transform: translateY(-2px);
 }
-
 .site-logo {
     margin: 0 auto;
     padding: 8px 0 0;

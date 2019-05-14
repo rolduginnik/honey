@@ -6,7 +6,7 @@ footer {
 	align-items: center;
 	flex-wrap: wrap;
 	background-color: #3b3737;
-	padding: 15px 120px 15px 0;
+	padding: 15px 140px 15px 0;
 }
 footer div.f-logo {
 	flex: 0 200px;
@@ -15,8 +15,27 @@ footer div.f-logo {
 .footer-info {
 	flex: 1 20px 30px;
 	margin-right: 50px;
+	padding: 0 15px;
 	color: #fff;
+	background-color: rgb(83, 83, 83);
+	border-radius: 3px;
 	transform: translateX(50px);
+}
+div.footer-info ul {
+	padding: 0;
+}
+div.footer-info ul li {
+	list-style: none;
+	font-weight: 100;
+}
+div.footer-info ul li.phone {
+	font-weight: 600;
+}
+div.footer-info ul li.insta a {
+	text-decoration: none;
+}
+div.footer-info ul li.copyright {
+	list-style: none;
 }
 .footer-info a {
 	color: #fff;
@@ -27,7 +46,7 @@ footer div.f-logo {
 
 @media screen and (min-width: 62em) {
 	footer {
-		padding: 15px 150px 15px 0;
+		padding: 15px 180px 15px 0;
 	}
 }
 

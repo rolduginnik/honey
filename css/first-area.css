@@ -5,28 +5,32 @@ div#first-area {
 	align-items: center;
 	justify-content: center;
 }
-.bg-video {
-	height: 570px;
-	width: 72em;
+#bg-vid {
+	width: 100%;
+	transform: translateY(-50px);
 	overflow: hidden;
-	z-index: 0;
+	z-index: -1;
 	position: relative;
 }
-
 div#text-m {
 	color: #fff;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 600;
 	text-transform: uppercase;
 	text-shadow: 0 .5px 5px rgb(74, 46, 46);
 	position: absolute;
 	width: 700px;
 	text-align: center;
+	transform: translateY(-40px);
 }
 
 @media screen and (min-width: 62em) {
+	#bg-vid {
+		transform: translateY(-100px);
+	}
 	div#text-m {
 		font-size: 2.5em;
 		width: 1000px;
+		transform: translateY(-80px);
 	}
 }
