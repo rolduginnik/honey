@@ -1,25 +1,23 @@
 ﻿	/* #footer-area */
 
 footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
 	background-color: #3b3737;
-	padding: 15px 140px 15px 0;
+	padding: 10px;
 }
 footer div.f-logo {
-	flex: 0 200px;
-	margin: 15px 4em;
+	display: block;
+	width: 440px;
+	margin: 15px auto;
 }
 .footer-info {
-	flex: 1 20px 30px;
-	margin-right: 50px;
-	padding: 0 15px;
+	display: block;
+	margin: 30px auto;
+	width: 440px;
+	padding: 1px 25px;
+	font-size: 2em;
 	color: #fff;
 	background-color: rgb(83, 83, 83);
 	border-radius: 3px;
-	transform: translateX(50px);
 }
 div.footer-info ul {
 	padding: 0;
@@ -46,15 +44,27 @@ div.footer-info ul li.copyright {
 
 @media screen and (min-width: 62em) {
 	footer {
-		padding: 15px 180px 15px 0;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	footer div.f-logo {
+		width: 250px;
+		margin: 0 auto 0 100px;
+}
+	.footer-info {
+		margin: 0 100px 0 auto;
+		padding: 0 25px;
+		width: 190px;
+		font-size: 1em;
 	}
 }
 
 /* button UP*/
 #go-top {
   position: fixed; 
-  bottom: 55px; 
-  right: 40px;
+  bottom: 60px; 
+  right: 25px;
   text-align: center;
   cursor:pointer; 
   display:none;
