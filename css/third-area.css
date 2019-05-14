@@ -9,6 +9,8 @@
 	flex: 1;
 	opacity: 0.98;
 	background-color:#000;
+	border-radius: 15px;
+	box-shadow: 1px 0px 35px rgba(0, 0, 0, 0.24);
 }
 div.text-third {
 	color: #fff;
@@ -22,7 +24,9 @@ div.text-third {
 }
 div.map {
 	margin-bottom: 0;
-	height: 320px;
+	height: 350px;
+	border-radius: 5px;
+	box-shadow: 1px 0px 35px rgba(0, 0, 0, 0.24);
 }
 
 @media screen and (min-width: 62em) {
