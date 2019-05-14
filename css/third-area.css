@@ -20,6 +20,10 @@ div.text-third {
 	width: 800px;
 	text-align: center;
 }
+div.map {
+	margin-bottom: 0;
+	height: 320px;
+}
 
 @media screen and (min-width: 62em) {
 	div.text-third {
