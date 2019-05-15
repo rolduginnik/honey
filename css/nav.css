@@ -18,11 +18,14 @@
 	display: block;
 	text-decoration: none;
 	color: white;
-	padding: .6em 1em;
+	padding: .3em 1em;
 }
 
 .menu li a:hover {
 	background: hsl(37, 18%, 27%);
+}
+.menu li a:active {
+	background: hsla(35, 35%, 18%, 0.1);
 }
 
 
@@ -34,9 +37,11 @@
 		font-size: 1em;
         justify-content: space-between;
     }
-    
     .menu li {
         flex: 1 0 auto;
         text-align: center;
     }
+	.menu li a {
+		padding: .4em 1em;
+	}
 }
