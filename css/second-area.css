@@ -41,6 +41,10 @@ div.table-subtitle p {
 	color: rgb(255, 157, 0);
 	font-size: 6rem;
 	margin: 10px 0;
+	text-decoration: none;
+}
+.table a {
+	text-decoration: none;
 }
 .table div p::before {
 	content: '';
