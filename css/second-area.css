@@ -13,6 +13,7 @@
 	box-shadow: 1px 0px 35px rgba(0, 0, 0, 0.24);
 	border-radius: 15px;
 	transform: translateY(-80px);
+	background-color: #fff;
 }
 #sa-img {
 	width: 100%;
@@ -39,7 +40,7 @@ div.table-subtitle p {
 .table h2 {
 	color: rgb(255, 157, 0);
 	font-size: 6rem;
-	margin: 30px 0;
+	margin: 10px 0;
 }
 .table div p::before {
 	content: '';
