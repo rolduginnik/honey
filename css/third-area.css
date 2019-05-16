@@ -11,17 +11,17 @@
 	opacity: 0.98;
 	background-color:#000;
 	border-radius: 15px;
-	box-shadow: 1px 0px 35px rgba(0, 0, 0, 0.24);
+	box-shadow: 1px 0px 35px rgba(0, 0, 0, 0.4);
 }
 div.text-third {
 	color: #fff;
-	font-size: 4em;
+	font-size: 1.8em;
 	font-weight: 600;
 	text-transform: uppercase;
-	text-shadow: 0 .5px 5px rgb(74, 46, 46);
 	position: absolute;
 	width: 800px;
 	text-align: center;
+	text-shadow: 1px 2px 4px #4e3814;
 }
 div.map {
 	margin-bottom: 0;
@@ -33,7 +33,7 @@ div.map {
 
 @media screen and (min-width: 62em) {
 	div.text-third {
-		font-size: 4em;
+		font-size: 2.4em;
 		width: 900px;
 	}
 }
