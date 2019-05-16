@@ -1,17 +1,10 @@
 ﻿	/* nav */
 
-.menu-section {
-	z-index: 2;
-	padding: 0;
-	margin: 0;
-	box-shadow: 0 0 20px #34280d;
-}
-
 .menu ul {
 	list-style-type: none;
 	font-size: 2em;
 	padding: 0;
-	margin: 2px 0;
+	margin: 0;
 	background: hsl(35, 35%, 18%);
 }
 
