@@ -1,9 +1,5 @@
 /* Card Based Layout - Base styles */
 
-body {
-	background: hsl(0, 0%, 90%);
-}
-
 #singlenav {
 	margin-bottom: 2em;
 }
