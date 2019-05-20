@@ -6,6 +6,7 @@ div#first-area {
 	justify-content: center;
 }
 #bg-vid {
+	background-image: url(../image/s246.jpg);
 	width: 100%;
 	transform: translateY(-65px);
 	overflow: hidden;
