@@ -33,7 +33,7 @@ div.map {
 	box-shadow: 1px 0px 35px rgba(0, 0, 0, 0.24);
 	transform: translateY(-51px);
 }
-div.text-third a {
+div#second-area a {
 	text-decoration: none;
 	color: white;
 }
