@@ -8,8 +8,38 @@ body {
 	background: hsl(0, 0%, 90%);
 }
 
-@media screen and (min-width: 52em) {
+.recipe_i ul {
+	margin: 0;
+}
+.recipe_i p {
+	font-size: 1em;
+	margin: 10px 0;
+	text-align: left;
+}
+
+@media screen and (min-width: 40em) {
     .centered {
         max-width: 52em;
     }
+}
+@media screen and (max-width: 1000px) {
+	.recipe_i h2 {
+		font-size: 3em;
+	}
+	.recipe_i h3 {
+		font-size: 2.6em;
+	}
+	.recipe_i ul {
+		font-size: 2.5em;
+		margin: .6em 0;
+	}
+    .recipe_i p {
+		font-size: 2.5em;
+		margin: .6em 0;
+		text-align: left!important;
+	}  
+	p.p_1 {
+		text-align: center!important;
+	}
+
 }
