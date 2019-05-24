@@ -16,6 +16,11 @@ body {
 	margin: 10px 0;
 	text-align: left;
 }
+.recipe-img {
+	float: right;
+	width: 45%;
+}
+
 
 @media screen and (min-width: 40em) {
     .centered {
@@ -41,5 +46,8 @@ body {
 	p.p_1 {
 		text-align: center!important;
 	}
-
+	.recipe-img {
+		float: right;
+		width: 45%;
+	}
 }
